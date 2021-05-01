@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/05/Coffee-bean-food-background-beige-paper-bitter-a-pile-backgrounds-1920x1080.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  background: #daa870;
+  height: 40px;
+  border-radius: 10px;
+  animation: anim_nav linear 2s 1;
+}
+ul {
+  width: 100%;
+}
+ul li {
+  width: 25%;
+  float: left;
+  line-height: 40px;
+  cursor: pointer;
+  list-style: none;
+  text-align: center;
+  transition: 2s;
+  font-size: 20px;
+  border-radius: 10px;
+}
+ul li:hover {
+  background: #ffcc99;
+  color: white;
+}
+h1 {
+  color: #ffcc00;
+  text-align: left;
+  font-size: 100px;
+  text-shadow: 2px 1px white;
+}
+.welcome {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin: 0.2em;
+  animation: anim_welcome linear 2s 1;
+}
+.i1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, serif;
+  color: white;
+  font-size: 30px;
+  margin: 1em;
+  text-align-last: center;
+  color: #854506;
+  text-shadow: 2px 1px white;
+}
+.i2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, serif;
+  font-size: 20px;
+  color: #854506;
+  margin: 1em;
+  text-decoration-style: solid;
+}
+@keyframes anim_nav {
+  0% {
+    margin-top: -100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+@keyframes anim_welcome {
+  0% {
+    margin-top: 100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+h2 {
+  color: #ffcc00;
+  margin: 1em;
+  font-family: serif;
+}
+.i1:hover {
+  color: #ffcc00;
+  transform: scale(1);
+}
+.i2:hover {
+  color: #ffcc00;
+}

@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://www.pointbleudesign.com/wp-content/uploads/2019/09/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  background: #daa870;
+  height: 40px;
+  border-radius: 10px;
+  animation: anim_nav linear 2s 1;
+}
+ul {
+  width: 100%;
+}
+ul li {
+  width: 25%;
+  float: left;
+  line-height: 40px;
+  cursor: pointer;
+  list-style: none;
+  text-align: center;
+  transition: 2s;
+  font-size: 20px;
+  border-radius: 10px;
+}
+ul li:hover {
+  background: #ffcc99;
+  color: white;
+}
+.welcome {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  width: 600px;
+  height: 150px;
+  text-shadow: 2px 1px white;
+  margin: 0.2em;
+  animation: anim_welcome linear 2s 1;
+}
+h1 {
+  color: #ffcc00;
+  text-align: left;
+  font-size: 100px;
+}
+.images {
+  width: 75%;
+}
+.images img {
+  width: 30%;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.images img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes anim_nav {
+  0% {
+    margin-top: -100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+@keyframes anim_welcome {
+  0% {
+    margin-top: 100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+form {
+  color: white;
+  margin: auto 20px;
+  border-radius: 25pxs;
+}
+.heading {
+  font-size: 10px;
+  font-family: "sans-serif";
+}
+
+.button {
+  color: black;
+  padding: 10px;
+  border: none;
+}
+.button:hover {
+  background: #ffcc99;
+}
+h2 {
+  color: #ffcc00;
+  margin: 1em;
+  font-family: serif;
+}
+
+.contact-item {
+  color: white;
+  text-align: center;
+}
+.head {
+  font-size: 50px;
+  text-shadow: none;
+}
+.contact-item_text:hover {
+  color: #ffcc00;
+}
+.contact-item_title {
+  color: #ffcc00;
+}
+.form {
+  margin-left: 40px;
+}
+.contact-info {
+  font-size: 25px;
+}
